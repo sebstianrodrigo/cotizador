@@ -4,7 +4,7 @@
 } 
 #base {
     color: #fff;
-    font-size: 27px;
+    font-size: 26.5px;
     font-family: Verdana;
     text-align: center;
     margin-bottom: 30px;
@@ -74,7 +74,7 @@
 #opcion121,
 #opcion122{
     border:solid 3px #fff;
-    font-size: 27px;
+    font-size: 25px;
     color:#fff;
     margin-top: 7px;
     margin-bottom: 15px;
