@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    background: #333;
+} 
+#base {
+    color: #fff;
+    font-size: 27px;
+    font-family: Verdana;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#cotizacion{
+    color: #fff;
+    font-size: 20px;
+    font-family: Verdana;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+#base input{
+    font-size: 32px;
+    justify-items: center;
+    text-align: left;
+    height: 40px;
+    color: #fff;
+    border:solid 3px #fff;
+    
+}
+#opcion11,
+#opcion12,
+#opcion21,
+#opcion22,
+#opcion31,
+#opcion32,
+#opcion41,
+#opcion42,
+#opcion51,
+#opcion52,
+#opcion61,
+#opcion62,
+#opcion71,
+#opcion72,
+#opcion81,
+#opcion82,
+#opcion91,
+#opcion92,
+#opcion101,
+#opcion102,
+#opcion111,
+#opcion112,
+#opcion121,
+#opcion122{
+    border:solid 3px #fff;
+    font-size: 27px;
+    color:#fff;
+}
+#cont1,
+#cont2,
+#cont3,
+#cont4,
+#cont5,
+#cont6,
+#cont7,
+#cont8,
+#cont9,
+#cont10,
+#cont11,
+#cont12{
+    margin: -5px;
+    margin-top: 20px;
+    margin-bottom: -5px;
+}
+
+#conver{
+    
+    font-size: 30px;
+    border: solid 4px #fff;
+    font-family: Impact;
+    color: #fff;
+    font-family: Verdana;
+    text-align: center;
+}
+@media (max-width:413px){
+    #base input{
+    font-size: 27px;
+    justify-items: center;
+    text-align: left;
+    height: 50px;
+    color: #fff;
+    border:solid 3px #fff;
+    
+    }
+    #conver{
+        font-size: 30px;
+        border: solid 3px #fff;
+        color: #fff;
+        font-family: Verdana;
+        text-align: center;
+    }
+}
+@media (width:320px){
+    #base {
+        color: #fff;
+        font-size: 23px;
+        font-family: Verdana;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    #base input{
+    font-size: 24px;
+    justify-items: center;
+    text-align: left;
+    height: 50px;
+    color: #fff;
+    border:solid 3px #fff;
+    
+    }
+    #conver{
+        font-size: 28px;
+        border: solid 3px #fff;
+        color: #fff;
+        font-family: Verdana;
+        text-align: center;
+    }
+    #opcion{
+        border:solid 3px #fff;
+        font-size: 24px;
+        color:#fff;
+    }
+    #año,#meses{
+        font-size: 18px;
+        
+    }
+}
+
+
+
