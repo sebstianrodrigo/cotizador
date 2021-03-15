@@ -107,6 +107,9 @@
     font-family: Verdana;
     text-align: center;
 }
+p{
+    font-size: 15px;
+}
 @media (max-width:413px){
     #base input{
     font-size: 27px;
@@ -154,10 +157,44 @@
         font-size: 24px;
         color:#fff;
     }
-    #año,#meses{
-        font-size: 18px;
-        
+    p{
+        font-size: 12px;
     }
+    
+}
+@media (max-width:280px){
+    #base {
+        color: #fff;
+        font-size: 23px;
+        font-family: Verdana;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    #base input{
+    font-size: 24px;
+    justify-items: center;
+    text-align: left;
+    height: 50px;
+    color: #fff;
+    border:solid 3px #fff;
+    
+    }
+    #conver{
+        font-size: 28px;
+        border: solid 3px #fff;
+        color: #fff;
+        font-family: Verdana;
+        text-align: center;
+    }
+    #opcion{
+        border:solid 3px #fff;
+        font-size: 24px;
+        color:#fff;
+    }
+    p{
+        font-size: 10px;
+    }
+    
 }
 
 
