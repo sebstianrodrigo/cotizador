@@ -60,6 +60,8 @@ var v10 =parseFloat(document.getElementById('value10').value);
 var v11 =parseFloat(document.getElementById('value11').value);
 var v12 =parseFloat(document.getElementById('value12').value);
 
+
+
 v2= 0;
 v3= 0;
 v4= 0;
@@ -75,40 +77,167 @@ v12= 0;
 
 function coti(){
     var persona= document.getElementById('nombre').value;
+    if (persona == Number){
+        persona = "";
+    }
     v1 =parseFloat(document.getElementById('value1').value);
     if(conta==1){
-        v2=parseFloat(document.getElementById('value2').value);
+        v1 =parseFloat(document.getElementById('value1').value);
+        v2 =parseFloat(document.getElementById('value2').value);
     }
     else if (conta==2){
+        v1 =parseFloat(document.getElementById('value1').value);
+        v2 =parseFloat(document.getElementById('value2').value);
         v3 =parseFloat(document.getElementById('value3').value);
     }
     else if (conta==3){
+        v1 =parseFloat(document.getElementById('value1').value);
+        v2=parseFloat(document.getElementById('value2').value);
+        v3 =parseFloat(document.getElementById('value3').value);
         v4 =parseFloat(document.getElementById('value4').value);
     }
     else if (conta==4){
+        v1 =parseFloat(document.getElementById('value1').value);
+        v2 =parseFloat(document.getElementById('value2').value);
+        v3 =parseFloat(document.getElementById('value3').value);
+        v4 =parseFloat(document.getElementById('value4').value);
         v5 =parseFloat(document.getElementById('value5').value);
     }
     else if (conta==5){
+        v1 =parseFloat(document.getElementById('value1').value);
+        v2 =parseFloat(document.getElementById('value2').value);
+        v3 =parseFloat(document.getElementById('value3').value);
+        v4 =parseFloat(document.getElementById('value4').value);
+        v5 =parseFloat(document.getElementById('value5').value);
         v6 =parseFloat(document.getElementById('value6').value);
     }
     else if (conta==6){
+        v1 =parseFloat(document.getElementById('value1').value);
+        v2 =parseFloat(document.getElementById('value2').value);
+        v3 =parseFloat(document.getElementById('value3').value);
+        v4 =parseFloat(document.getElementById('value4').value);
+        v5 =parseFloat(document.getElementById('value5').value);
+        v6 =parseFloat(document.getElementById('value6').value); 
         v7 =parseFloat(document.getElementById('value7').value);
     }
     else if (conta==7){
+        v1 =parseFloat(document.getElementById('value1').value);
+        v2 =parseFloat(document.getElementById('value2').value);
+        v3 =parseFloat(document.getElementById('value3').value);
+        v4 =parseFloat(document.getElementById('value4').value);
+        v5 =parseFloat(document.getElementById('value5').value);
+        v6 =parseFloat(document.getElementById('value6').value);
+        v7 =parseFloat(document.getElementById('value7').value);
         v8 =parseFloat(document.getElementById('value8').value);
     }
     else if (conta==8){
+        v1 =parseFloat(document.getElementById('value1').value);
+        v2 =parseFloat(document.getElementById('value2').value);
+        v3 =parseFloat(document.getElementById('value3').value);
+        v4 =parseFloat(document.getElementById('value4').value);
+        v5 =parseFloat(document.getElementById('value5').value);
+        v6 =parseFloat(document.getElementById('value6').value);
+        v7 =parseFloat(document.getElementById('value7').value);
+        v8 =parseFloat(document.getElementById('value8').value);
         v9 =parseFloat(document.getElementById('value9').value);
     }
     else if (conta==9){
+        v1 =parseFloat(document.getElementById('value1').value);
+        v2 =parseFloat(document.getElementById('value2').value);
+        v3 =parseFloat(document.getElementById('value3').value);
+        v4 =parseFloat(document.getElementById('value4').value);
+        v5 =parseFloat(document.getElementById('value5').value);
+        v6 =parseFloat(document.getElementById('value6').value);
+        v7 =parseFloat(document.getElementById('value7').value);
+        v8 =parseFloat(document.getElementById('value8').value);
+        v9 =parseFloat(document.getElementById('value9').value);
         v10 =parseFloat(document.getElementById('value10').value);
     }
     else if (conta==10){
+        v1 =parseFloat(document.getElementById('value1').value);
+        v2 =parseFloat(document.getElementById('value2').value);
+        v3 =parseFloat(document.getElementById('value3').value);
+        v4 =parseFloat(document.getElementById('value4').value);
+        v5 =parseFloat(document.getElementById('value5').value);
+        v6 =parseFloat(document.getElementById('value6').value);
+        v7 =parseFloat(document.getElementById('value7').value);
+        v8 =parseFloat(document.getElementById('value8').value);
+        v9 =parseFloat(document.getElementById('value9').value);
+        v10 =parseFloat(document.getElementById('value10').value);
         v11=parseFloat(document.getElementById('value11').value);
     }
     else if (conta==11){
+        v1 =parseFloat(document.getElementById('value1').value);
+        v2 =parseFloat(document.getElementById('value2').value);
+        v3 =parseFloat(document.getElementById('value3').value);
+        v4 =parseFloat(document.getElementById('value4').value);
+        v5 =parseFloat(document.getElementById('value5').value);
+        v6 =parseFloat(document.getElementById('value6').value);
+        v7 =parseFloat(document.getElementById('value7').value);
+        v8 =parseFloat(document.getElementById('value8').value);
+        v9 =parseFloat(document.getElementById('value9').value);
+        v10 =parseFloat(document.getElementById('value10').value);
+        v11=parseFloat(document.getElementById('value11').value);
         v12=parseFloat(document.getElementById('value12').value);
     }
+    else if (conta==12){
+        v1 =parseFloat(document.getElementById('value1').value);
+        v2 =parseFloat(document.getElementById('value2').value);
+        v3 =parseFloat(document.getElementById('value3').value);
+        v4 =parseFloat(document.getElementById('value4').value);
+        v5 =parseFloat(document.getElementById('value5').value);
+        v6 =parseFloat(document.getElementById('value6').value);
+        v7 =parseFloat(document.getElementById('value7').value);
+        v8 =parseFloat(document.getElementById('value8').value);
+        v9 =parseFloat(document.getElementById('value9').value);
+        v10 =parseFloat(document.getElementById('value10').value);
+        v11=parseFloat(document.getElementById('value11').value);
+        v12=parseFloat(document.getElementById('value12').value);
+    }
+    else if (conta==13){
+        v1 =parseFloat(document.getElementById('value1').value);
+        v2 =parseFloat(document.getElementById('value2').value);
+        v3 =parseFloat(document.getElementById('value3').value);
+        v4 =parseFloat(document.getElementById('value4').value);
+        v5 =parseFloat(document.getElementById('value5').value);
+        v6 =parseFloat(document.getElementById('value6').value);
+        v7 =parseFloat(document.getElementById('value7').value);
+        v8 =parseFloat(document.getElementById('value8').value);
+        v9 =parseFloat(document.getElementById('value9').value);
+        v10 =parseFloat(document.getElementById('value10').value);
+        v11=parseFloat(document.getElementById('value11').value);
+        v12=parseFloat(document.getElementById('value12').value);
+    }
+    else if (conta==14){
+        v1 =parseFloat(document.getElementById('value1').value);
+        v2 =parseFloat(document.getElementById('value2').value);
+        v3 =parseFloat(document.getElementById('value3').value);
+        v4 =parseFloat(document.getElementById('value4').value);
+        v5 =parseFloat(document.getElementById('value5').value);
+        v6 =parseFloat(document.getElementById('value6').value);
+        v7 =parseFloat(document.getElementById('value7').value);
+        v8 =parseFloat(document.getElementById('value8').value);
+        v9 =parseFloat(document.getElementById('value9').value);
+        v10 =parseFloat(document.getElementById('value10').value);
+        v11=parseFloat(document.getElementById('value11').value);
+        v12=parseFloat(document.getElementById('value12').value);
+    }
+    else if (conta==15){
+        v1 =parseFloat(document.getElementById('value1').value);
+        v2 =parseFloat(document.getElementById('value2').value);
+        v3 =parseFloat(document.getElementById('value3').value);
+        v4 =parseFloat(document.getElementById('value4').value);
+        v5 =parseFloat(document.getElementById('value5').value);
+        v6 =parseFloat(document.getElementById('value6').value);
+        v7 =parseFloat(document.getElementById('value7').value);
+        v8 =parseFloat(document.getElementById('value8').value);
+        v9 =parseFloat(document.getElementById('value9').value);
+        v10 =parseFloat(document.getElementById('value10').value);
+        v11=parseFloat(document.getElementById('value11').value);
+        v12=parseFloat(document.getElementById('value12').value);
+    }
+    
+    
     ///VARIABLES DE OPCIONES
     var selectValue11 =document.getElementById('opcion11').value;
     var selectValue12 =document.getElementById('opcion12').value;
@@ -928,17 +1057,24 @@ function coti(){
         v12 = v12*36.30;
     }
 
-
-
-
     
-
-
-
-    
-    
+    l=[v1.toFixed(2),
+       v2.toFixed(2),
+       v3.toFixed(2),
+       v4.toFixed(2),
+       v5.toFixed(2),
+       v6.toFixed(2),
+       v7.toFixed(2),
+       v8.toFixed(2),
+       v9.toFixed(2),
+       v10.toFixed(2),
+       v11.toFixed(2),
+       v12.toFixed(2)]
+    sumatoria= v1+v2+v3+v4+v5+v6+v7+v8+v9+v10+v11+v12;
+    total= sumatoria + (sumatoria*0.18);
     
     document.getElementById('nombr').innerHTML = persona;
-    document.getElementById('result').innerHTML = (v1+v2+v3+v4+v5+v6+v7+v8+v9+v10+v11+v12);
-    document.getElementById('unit').innerHTML = "soles";    
+    document.getElementById('result').innerHTML = "SUBTOTAL: "+" S./"+sumatoria.toFixed(2);
+    document.getElementById('igv').innerHTML = "IGV 18%: "+ " S./"+(0.18*(sumatoria.toFixed(2))).toFixed(2);
+    document.getElementById('total').innerHTML = "TOTAL: "+ " S./"+ total.toFixed(2);   
 }

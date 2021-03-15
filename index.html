@@ -3,7 +3,9 @@
     <head lang="es">
         <meta charset="utf-8">
         <title>COTIZADOR</title>
+       
         <link rel="stylesheet" type="text/css" href="styles.css"/>
+        
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
 
@@ -12,15 +14,15 @@
         <div id="base">
             <form  name="" method="post">
                 <br/>
-                <div style="border: 2px solid #fff;">
+                <div style="border: 2px dashed #fff;">
                     <label>INGRESE SU NOMBRE:</label>
                     <br>
                     <input type="text" name="nombre" id="nombre" autofocus placeholder="Ej. Karina Villacorta" style="font-size: 24px;">
                     <br>
 
                 </div>
-                
-                <div id="cont1" style="border: 2px solid #fff;">
+                 
+                <div id="cont1" style="border: 2px dashed #fff;">
                     <label>ADOKING RECTANGULAR</label>
                     <br>
                     <select id ="opcion11" name="opcion11" data-validation="required" style="width: 250px;">
@@ -46,7 +48,7 @@
                     <br>
                 </div>
                 
-                <div id="cont2" style="border: 2px solid #fff;" >
+                <div id="cont2" style="border: 2px dashed #fff;" >
                     <label>ADOKING RECTANGULAR</label>
                     <br>
                     <select id ="opcion21" name="opcion21" data-validation="required" style="width: 250px;">
@@ -73,7 +75,7 @@
                     </select>
                 </div>
                 
-                <div id="cont3" style="border: 2px solid #fff;">
+                <div id="cont3" style="border: 2px dashed #fff;">
                     <label>ADOKING RECTANGULAR</label>
                     <br>
                     <select id ="opcion31" name="opcion31" data-validation="required" style="width: 250px;">
@@ -100,7 +102,7 @@
                     </select>
                 </div>
                 
-                <div id="cont4" style="border: 2px solid #fff;">
+                <div id="cont4" style="border: 2px dashed #fff;">
                     <label>ADOKING RECTANGULAR</label>
                     <br>
                     <select id ="opcion41" name="opcion41" data-validation="required" style="width: 250px;">
@@ -126,7 +128,7 @@
                     <br>
                     </select>
                 </div>
-                <div id="cont5" style="border: 2px solid #fff;">
+                <div id="cont5" style="border: 2px dashed #fff;">
                     <label>ADOKING RECTANGULAR</label>
                     <br>
                     <select id ="opcion51" name="opcion51" data-validation="required" style="width: 250px;">
@@ -152,7 +154,7 @@
                     <br>
                     </select>
                 </div>
-                <div id="cont6" style="border: 2px solid #fff;">
+                <div id="cont6" style="border: 2px dashed #fff;">
                     <label>ADOKING RECTANGULAR</label>
                     <br>
                     <select id ="opcion61" name="opcion61" data-validation="required" style="width: 250px;">
@@ -178,7 +180,7 @@
                     <br>
                     </select>
                 </div>
-                <div id="cont7" style="border: 2px solid #fff;">
+                <div id="cont7" style="border: 2px dashed #fff;">
                     <label>ADOKING RECTANGULAR</label>
                     <br>
                     <select id ="opcion71" name="opcion71" data-validation="required" style="width: 250px;">
@@ -204,7 +206,7 @@
                     <br>
                     </select>
                 </div>
-                <div id="cont8" style="border: 2px solid #fff;">
+                <div id="cont8" style="border: 2px dashed #fff;">
                     <label>ADOKING RECTANGULAR</label>
                     <br>
                     <select id ="opcion81" name="opcion81" data-validation="required" style="width: 250px;">
@@ -230,7 +232,7 @@
                     <br>
                     </select>
                 </div>
-                <div id="cont9" style="border: 2px solid #fff;">
+                <div id="cont9" style="border: 2px dashed #fff;">
                     <label>ADOKING RECTANGULAR</label>
                     <br>
                     <select id ="opcion91" name="opcion91" data-validation="required" style="width: 250px;">
@@ -256,7 +258,7 @@
                     <br>
                     </select>
                 </div>
-                <div id="cont10" style="border: 2px solid #fff;">
+                <div id="cont10" style="border: 2px dashed #fff;">
                     <label>ADOKING RECTANGULAR</label>
                     <br>
                     <select id ="opcion101" name="opcion101" data-validation="required" style="width: 250px;">
@@ -282,7 +284,7 @@
                     <br>
                     </select>
                 </div>
-                <div id="cont11" style="border: 2px solid #fff;">
+                <div id="cont11" style="border: 2px dashed #fff;">
                     <label>ADOKING RECTANGULAR</label>
                     <br>
                     <select id ="opcion111" name="opcion111" data-validation="required" style="width: 250px;">
@@ -308,7 +310,7 @@
                     <br>
                     </select>
                 </div>
-                <div id="cont12" style="border: 2px solid #fff;">
+                <div id="cont12" style="border: 2px dashed #fff;">
                     <label>ADOKING RECTANGULAR</label>
                     <br>
                     <select id ="opcion121" name="opcion121" data-validation="required" style="width: 250px;">
@@ -337,13 +339,12 @@
             </form>
         </div>
         <div id="conver" >
-            <span id="num" onclick="agre();">AGREGAR ADOKING</span>
+            <span id="num" onclick="agre();" >AGREGAR ADOKING</span>
         </div>
         <br>
         <div id="conver" >
             <a href="#cotizacion" style="color: #fff;"><span id="num" onclick="coti();"> COTIZAR</span></a>
         </div>
-        <br/>
         <br/>
         <br/>
         <br/>
@@ -387,7 +388,10 @@
                 <br> 
                 <br>
                 <span id="result"></span>
-                <span id="unit"></span>
+                <br/>
+                <span id="igv"></span>
+                <br/>
+                <span id="total"></span>
             </p>
         </div>
         <br/>

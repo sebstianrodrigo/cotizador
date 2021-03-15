@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    background: #333;
+    background: #091921;
 } 
 #base {
     color: #fff;
@@ -21,6 +21,7 @@
     margin-top: 5px;
     margin-bottom: 10px;
     width: 285px;
+    
 }
 #value1,
 #value2,
